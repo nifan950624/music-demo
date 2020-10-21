@@ -4,9 +4,17 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+   <HelloWorld/>
+    <router-view />
   </div>
 </template>
+<script lang="ts">
+import HelloWorld from '@/components/HelloWorld.vue'
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component({ components: { HelloWorld } })
+export default class App extends Vue {}
+</script>
 
 <style>
 #app {
