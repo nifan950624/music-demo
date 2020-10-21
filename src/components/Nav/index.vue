@@ -7,8 +7,8 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-
-export default class topNav extends Vue {}
+@Component
+export default class TopNav extends Vue {}
 </script>
 
 <style lang="scss" scoped>
