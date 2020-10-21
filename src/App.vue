@@ -5,7 +5,6 @@
   </div>
 </template>
 <script lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
 import TopNav from '@/components/Nav/index.vue'
 import { Component, Vue } from 'vue-property-decorator'
 
